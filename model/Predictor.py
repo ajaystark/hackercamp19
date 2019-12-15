@@ -2,13 +2,14 @@ import random, os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 import tensorflow as tf, tensorflow.keras as keras
 # import train
-from model.train import xTrain, yTrain
+# from train import xTrain, yTrain
 
+# if __name__=="__main__"
 class Predictor:
 	companies = 20
 	features = 6
 	trainEpochs = 5000	
-	savePath = os.path.join(os.getcwd(), 'checkpoints', 'cp.ckpt')
+	savePath = os.path.join(os.getcwd(), 'model','checkpoints', 'cp.ckpt')
 	shouldSave = True
 	
 	def __init__(self):
@@ -23,10 +24,10 @@ class Predictor:
 		])
 		self.model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 	
-		# try:	
-		self.model.load_weights(Predictor.savePath)
-		# except:
-		# 	print('Untrained model! Proceed with caution!')
+		try:	
+			self.model.load_weights(Predictor.savePath)
+		except:
+			print('Untrained model! Proceed with caution!')
 
 	def _train(self, features, companies):
 		assert len(features[0]) == Predictor.features, 'Can only train data with '+str(Predictor.features)+' features!'
@@ -57,3 +58,5 @@ class Predictor:
 
 		return y
 
+# p = Predictor()
+# p._train(xTrain,p.formatY(yTrain))

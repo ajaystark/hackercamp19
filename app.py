@@ -27,7 +27,7 @@ def details():
         a.append(float(obj['employees'])/float(obj['worth']))
         a.append(obj['breaches'])
         # print(a)
-        b=[0.9,0.8,1.0,0.7,0.1,0.2]
+        b=[0.5, 0.1, 0.7, 0.2, 0.3, 0.0]
         p=Predictor()
         result=p.getPrediction(b)
         array=[]
