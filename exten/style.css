@@ -1,0 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: transparent;
+	font-family: avenir next;
+}
+
+html{
+	height: 400px;
+	width: 280px;
+}
+body{
+	background-color: #333;
+}
