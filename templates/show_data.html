@@ -4,8 +4,12 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="static/style.css">
         <link rel="stylesheet" href="static/style-data.css">
+        
     </head>
     <body background="static/bg1.jpg" class="bg">
+        {% if name %}
+          <h3 class="py-5 my-5 w-100 text-center position-absolute" style="color: white;">{{name}}</h3>
+        {% endif %}
         <div class="container main-cont">
             <h2 class="head">Companies matched for you</h2>
             <table class>
