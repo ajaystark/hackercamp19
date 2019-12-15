@@ -42,7 +42,7 @@ def details():
         filename = "database.txt"
         with open(filename) as f:
             content = f.readlines()
-        id=[5,12,16]
+        id=array
         count=0
         output=[]
         for line in content[2:21]:
