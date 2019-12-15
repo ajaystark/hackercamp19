@@ -22,10 +22,10 @@ class Predictor:
 		])
 		self.model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 	
-		try:	
-			self.model.load_weights(Predictor.savePath)
-		except:
-			print('Untrained model! Proceed with caution!')
+		# try:	
+		self.model.load_weights(Predictor.savePath)
+		# except:
+		# 	print('Untrained model! Proceed with caution!')
 
 	def _train(self, features, companies):
 		assert len(features[0]) == Predictor.features, 'Can only train data with '+str(Predictor.features)+' features!'
