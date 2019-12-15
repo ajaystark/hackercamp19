@@ -1,72 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:200,300,400,500,600,700,800|Nunito:300,400,600,700,800|Questrial&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="static/style.css">
     </head>
-    <body background="static/background.jpg" class="bg">
-      <h2 class="w-100 text-center mt-5" style="color: aqua;">Enter Details</h2>
-        <!-- <form action="/save" method="POST">
-            Enter Details:
-            <br>
-            <input type="text" name='progress' placeholder='Progress'><br>
-            <input type="text" name='interest' placeholder="Field of interest"><br>
-            <input type="text" name='technology' placeholder='Technology'><br>
-            <input type="text" name='area' placeholder='Area Server'><br>
-            <input type="text" name='turnover' placeholder='TurnOver'><br>
-            <input type="text" name='shareprice' placeholder='Share Price'><br>
-            <button type="submit">Save</button>
-        </form> -->
-        <div class="container mt-5" >
+    <body background="static/bg4-b.jpg" class="bg">
+        <div class="container main-cont" >
+      		<h1 class="head">Enter Details</h2>
             <form action="/details" method="POST" class="row" style="color:wheat">
                 <div class="form-group col-6">
-                  <label for="companies_resolved">No. of complaints resolved:</label>
-                  <input type="text" class="form-control" placeholder="No. of complaints resolved" name="companies_resolved">
+                  <label for="companies_resolved">No. of complaints resolved</label>
+                  <input required type="text" class="form-control" placeholder="No. of complaints resolved" name="companies_resolved">
                 </div>
                 <div class="form-group col-6">
-                  <label for="companies_registered">No. of complaints registered:</label>
-                  <input type="text" class="form-control" placeholder="No. of complaints registered" name="companies_resolved">
+                  <label for="companies_registered">No. of complaints registered</label>
+                  <input required type="text" class="form-control" placeholder="No. of complaints registered" name="companies_resolved">
                 </div>
                 <div class="form-group col-6">
-                  <label for="amount">Amount spent on a particular product:</label>
-                  <input type="text" class="form-control" placeholder="Amount spent on a particular product" name="amount">
+                  <label for="amount">Amount spent on a particular product</label>
+                  <input required type="text" class="form-control" placeholder="Amount spent on a particular product" name="amount">
                 </div>
                 <div class="form-group col-6">
-                    <label for="sales">Returns through sales:</label>
-                    <input type="text" class="form-control" placeholder="Returns through sales" name="sales">
+                    <label for="sales">Returns through sales</label>
+                    <input required type="text" class="form-control" placeholder="Returns through sales" name="sales">
                   </div>
                   <div class="form-group col-12">
-                    <label for="market_share">Market share of our product out of total sales of that product cataegory:</label>
-                    <input type="text" class="form-control" placeholder="Market share of our product out of total sales of that product cataegory" name="market_share">
+                    <label for="market_share">Market share of our product out of total sales of that product cataegory</label>
+                    <input required type="text" class="form-control" placeholder="Market share of our product out of total sales of that product cataegory" name="market_share">
                   </div>
                   <div class="form-group col-6">
-                    <label for="profits">Profits:</label>
-                    <input type="text" class="form-control" placeholder="Profits" name="profits">
+                    <label for="profits">Profits</label>
+                    <input required type="text" class="form-control" placeholder="Profits" name="profits">
                   </div>
                   <div class="form-group col-6">
-                    <label for="amount_business">Amount invested in the business:</label>
-                    <input type="text" class="form-control" placeholder="Amount invested in the business" name="amount_business">
+                    <label for="amount_business">Amount invested in the business</label>
+                    <input required type="text" class="form-control" placeholder="Amount invested in the business" name="amount_business">
                   </div>
                   <div class="form-group col-6">
-                    <label for="employees">No. of employees:</label>
-                    <input type="text" class="form-control" placeholder="No. of employees" name="employees">
+                    <label for="employees">No. of employees</label>
+                    <input required type="text" class="form-control" placeholder="No. of employees" name="employees">
                   </div>
                   <div class="form-group col-6">
-                    <label for="worth">Net worth of services produced:</label>
-                    <input type="text" class="form-control" placeholder="Net worth of services produced" name="worth">
+                    <label for="worth">Net worth of services produced</label>
+                    <input required type="text" class="form-control" placeholder="Net worth of services produced" name="worth">
                   </div>
                   <div class="form-group col-12">
-                    <label for="breaches">Security Breaches:</label>
-                    <input type="text" class="form-control" placeholder="Security Breaches" name="breaches">
+                    <label for="breaches">Security Breaches</label>
+                    <input required type="text" class="form-control" placeholder="Security Breaches" name="breaches">
                   </div>
 
-                <!-- <div class="form-group col-6 form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox"> Remember me
-                  </label>
-                </div> -->
                 <div class=" w-100 text-center pt-3">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary sub-btn">Submit</button>
                 </div>
               </form>
         </div>

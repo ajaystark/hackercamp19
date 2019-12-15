@@ -1,12 +1,77 @@
-.bg{
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+*{
+	font-family: montserrat;	
 }
+.bg{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 body, html {
     height: 100%;
-  }
+}
+
+.form-control:focus{
+	border: none;
+	box-shadow: none;
+	background-color: rgba(0,0,0,0.35);
+}
+
+.head{
+	text-align: left;	
+	font-weight: 700;
+	font-size: 18pt;
+	letter-spacing: 2px;
+	padding-top: 50px;
+	padding-left: 10px;
+	color: #eee;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.main-cont{
+	background-color: rgba(30,30,30, 0.8);
+	border-radius: 6px;
+	position: relative;
+	top: 70px;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+}
+
+label{
+	color: #89a5d2;
+	font-weight: 500;
+	font-size: 10pt;
+	margin-top: 6px;
+}
+
+.form-control{
+	border: none;
+	background-color: rgba(0,0,0,0.2);
+	font-size: 9pt;
+	font-weight: 500;
+	height: 42px;
+	border-radius: 20px;
+	transition: background-color 0.3s;
+}
+
+.sub-btn{
+	height: 47px;
+	width: 120px;
+	font-size: 10pt;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: transparent;
+	border: 4px solid #669cff;
+	color: #669cff;
+	border-radius: 0px;
+}
+
+.sub-btn:hover{
+	background-color: #669cff;
+	color: #fff;
+	border: 3px solid transparent;
+}

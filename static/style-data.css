@@ -1,0 +1,42 @@
+.main-cont{
+	background-color: #171717;
+	top: 40%;
+	transform: translateY(-50%);
+}
+
+.head{
+	color: #ccc;
+}
+
+table{
+	background-color: #333;
+	border: none;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+}
+
+td, th{
+	border: none;
+}
+
+th{
+	background-color: #222;
+	height: 57px;
+	font-size: 9pt;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ddd;
+	text-align: center;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+td{
+	height: 44px;
+	color: #eee;
+	font-size: 10pt;
+	font-weight: 500;
+	text-align: center;	
+}
