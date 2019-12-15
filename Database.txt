@@ -1,0 +1,37 @@
+Name, Share Price, Area based, Investment(in lakhs), Service offered, Years in operation
+0 ,  XYZ inc, 457.20, NCR, 42, Customer Service, 5
+1  , Alphabeta, 127.57, Mumbai, 63, Marketting, 2		
+2  , Locomoco, 1043.20, Pune, 51, Media, 18
+3  , Homofomo, 761.07, Bengaluru, 102, Financial Consultancy, 6
+4  , Globalare, 671.00, Thiruvanthapuram, 24, Media, 11
+5  , Pineapple, 985.78, Mangalore, 47, Hiring, 17
+6  , Floppio, 092.32, Chennai, 79, Media, 4
+7  , Hulp, 359.09, Chandigarh, 69, Customer Service, 8
+8  , Glycom, 567.97, NCR, 259, Cyber Security, 7
+9  , Hylo, 298.68, Shimla, 83, Marketting, 9
+10 , Croppy, 547.82, Chandigarh, 91, Media, 12
+11 , Dynamo, 289.62, Pune, 101, Customer Service, 5
+12 , Selium, 669.69, Bengaluru, 210, Financial Consultancy, 6
+13 , Tyro, 1329.80, Pune, 403, Marketting, 16
+14 , Bechang, 53.19, Bhuvaneshwar, 17, Cyber Security, 8
+15 , Hydrimo, 79.83, Hyderabad, 62, Marketting, 6
+16 , Yeki, 73.24, Pune, 71, Media, 4
+17 , Croctur, 147.32, Hyderabad, 39, Media, 9
+18 , Somopo, 465.71, NCR, 81, Financial Consultancy, 21
+19 , Jolito, 123.45, Mumbai, 77, Hiring, 11                                       
+
+
+
+Customer Service = No. of complaints resolved/ No. of complaints registered
+Marketting = Amount spent on a particular product/ Returns through sales
+Media= Market share of our product out of total sales of that product cataegory
+Financial Consultancy= Profits/Amount invested in the business
+Hiring= No. of employees/ Net worth of services produced
+Cyber Security= Security Breaches/12
+
+Customer Service 1
+Marketting 2
+Media 3
+Financial Consultancy 4
+Hiring 5 
+Cyber Security 6

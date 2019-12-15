@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/linear-regression-python-implementation/
+
+https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
+
+https://www.geeksforgeeks.org/ml-multiple-linear-regression-using-python/

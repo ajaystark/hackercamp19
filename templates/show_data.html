@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body background="static/background.jpg" class="bg" style="color:wheat; font-size:2rem;">
+        <div class="container mt-5">
+            <h2>Companies matched for you are:</h2>
+            <table class="table table-striped table-bordered mt-5" >
+                <thead style="color:coral;">
+                    <tr>
+                        <th>Company No.</th>
+                        <th>Name</th>
+                        <th>Share Price</th>
+                        <th>Area based</th>
+                        <th>Investment(in lakhs)</th>
+                        <th>Service offered</th>
+                        <th>Years in operation</th>
+                    </tr>
+                </thead>
+                <tbody style="color: aliceblue;">
+                    {% for company in data %}
+                    <tr>
+                        <td>{{company[0]}}</td>
+                        <td>{{company[1]}}</td>
+                        <td>{{company[2]}}</td>
+                        <td>{{company[3]}}</td>
+                        <td>{{company[4]}}</td>
+                        <td>{{company[5]}}</td>
+                        <td>{{company[6]}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <!-- <br><br><br>
+            Name :{{data[0]}} <br>
+            Share Price : {{data[1]}} <br>
+            Area based : {{data[2]}} <br>
+            Investment(in lakhs) : {{data[3]}} <br>
+            Service offered : {{data[4]}} <br>
+            Years in operation : {{data[5]}} <br> -->
+        </div>
+    </body>
+</html>
