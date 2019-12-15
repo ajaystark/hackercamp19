@@ -1,7 +1,7 @@
 import random, os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 import tensorflow as tf, tensorflow.keras as keras
-from train import xTrain, yTrain
+# from train import xTrain, yTrain
 
 class Predictor:
 	companies = 20
