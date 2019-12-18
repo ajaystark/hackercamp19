@@ -28,7 +28,6 @@ Media= Market share of our product out of total sales of that product cataegory
 Financial Consultancy= Profits/Amount invested in the business
 Hiring= No. of employees/ Net worth of services produced
 Cyber Security= Security Breaches/12
-
 Customer Service 1
 Marketting 2
 Media 3

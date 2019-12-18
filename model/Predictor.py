@@ -2,7 +2,7 @@ import random, os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 import tensorflow as tf, tensorflow.keras as keras
 # import train
-# from train import xTrain, yTrain
+from train import xTrain, yTrain
 
 # if __name__=="__main__"
 class Predictor:
@@ -58,5 +58,5 @@ class Predictor:
 
 		return y
 
-# p = Predictor()
-# p._train(xTrain,p.formatY(yTrain))
+p = Predictor()
+p._train(xTrain,p.formatY(yTrain))
